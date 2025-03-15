@@ -62,12 +62,12 @@ retail-investment-ml-pipeline/
 |        └── deploy.sh                 # Deployment automation script (SAM CLI or AWS CLI commands) 
 |
 ├── src/                               # Common source code utilities and libraries used across the project 
-|    ├── utils/
-|    |    ├── data_utils.py            # Data loading/saving helpers  
-|    |    └── model_utils.py           # Model serialization/deserialization helpers  
-|    |
-|    └─ config/
-|         └─ config.yaml               # Centralized configuration parameters  
+|    └── utils/
+|         ├── data_utils.py            # Data loading/saving helpers  
+|         └── model_utils.py           # Model serialization/deserialization helpers  
+|     
+├─ configs/
+|    └─ config.yaml                    # Centralized configuration parameters  
 |
 ├── tests/                             # Unit tests and integration tests 
 |    ├─ unit_tests/
