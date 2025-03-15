@@ -1,8 +1,8 @@
-# Retail Investment Recommendation System
+# StockSage: Predictive Analytics for Market Movements
 
 ## 🏗️ Project Structure
 ```
-retail-investment-ml-pipeline/
+StockSage/
 ├── .github/                           # GitHub Actions CI/CD workflows
 │   └── workflows/
 │       ├── ci.yml                     # Continuous Integration workflow
